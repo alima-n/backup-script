@@ -1,9 +1,7 @@
 # backup-script
 Graded assignment (DevOps course, MDS 2020)
 
-1. Make this script executable (e.g. chmod)
-
-2. Run in the command line `./backup.sh {DIRECTORY} {COMPRESSION_ALGO} {OUTPUT_FILENAME}`
+1. Run in the command line `./backup.sh {DIRECTORY} {COMPRESSION_ALGO} {OUTPUT_FILENAME}`
   - DIRECTORY is a directory to back up,
   - COMPRESSION_ALGO is a preferred compression type (or '**none**' if you need a backup without compression),
   - OUTPUT_FILENAME is a desired output filename.
